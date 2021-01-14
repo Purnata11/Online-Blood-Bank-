@@ -59,7 +59,7 @@ $newname='';
 
 <div>
 	<form method="post">
-		<h2>Login as a Donor</h2>
+		<h2>Login as a Donar</h2>
 
 		<?php if($msg != ''): ?>
         <div class="alertmsg"><?php echo $msg ?></div>
@@ -75,7 +75,7 @@ $newname='';
 		<div><input type="submit" name="signup" value="Sign Up"></div>
 	</form><br><br><br>
 </div>
-<div><a href="register.php">Register as a Donor!</a></div><br><br><br>
+<div><a href="register.php">Register as a Donar!</a></div><br><br><br>
 <div><a href="find.php">Find a Donar</a></div>
 </body>
 </html>

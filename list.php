@@ -17,7 +17,7 @@ include 'connect.php';
 	<link rel="stylesheet" href="stylep.css">
 </head>
 <body>
- <h1>List of Donors</h1>
+ <h1>List of Donars</h1>
   
   <table>
   	<tr>

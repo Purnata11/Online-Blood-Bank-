@@ -66,11 +66,11 @@ include 'connect.php';
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Update Donor Information</title>
+	<title>Resgistration</title>
      <link rel="stylesheet" href="stylep.css">
 </head>
 <body>
-	<h1>Update Donor Information</h1>
+	<h1>Update Donar Information</h1>
 
 <div>
 	<form method="post">

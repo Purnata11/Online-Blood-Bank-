@@ -82,7 +82,7 @@ include 'connect.php';
      <link rel="stylesheet" href="stylep.css">
 </head>
 <body>
-	<h1>Register as a Donor</h1>
+	<h1>Register as a Donar</h1>
 
 <div>
 	<form method="post">

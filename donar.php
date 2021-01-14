@@ -22,11 +22,11 @@ $disease = $row['disease'];
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Donor Profile</title>
+	<title>Donar Profile</title>
 	<link rel="stylesheet" href="stylep.css">
 </head>
 <body>
- <h1>Donor Profile</h1>
+ <h1>Donar Profile</h1>
 <form>
  <div class="donar"><b>Name:</b> <?php echo $name ?>  </div><br>
  <div class="donar"><b>Blood Group:</b> <?php echo $blood ?></div><br>

@@ -55,11 +55,11 @@ $msg='';
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Finding Donor</title>
+	<title>Finding Donar</title>
 	<link rel="stylesheet" href="stylep.css">
 </head>
 <body>
-	<h1>Enter The Following Information To Find A Donor</h1>
+	<h1>Enter The Following Information To Find A Donar</h1>
 
 <div>
 	<form method="post">
@@ -68,11 +68,11 @@ $msg='';
     <div class="alertmsg"><?php echo $msg ?></div>
     <?php endif; ?>
 		<div>
-			<label>Name:<span>*</span></label>
+			<span>*</span><label>Name:</label>
 			<input type="text" name="name" placeholder="Enter Name" value="<?php echo isset($_POST['name']) ? $name : ''; ?>" required/>
 		</div>
 		<div>
-			<label>Blood Group:<span>*</span></label>
+			<span>*</span><label>Blood Group:</label>
 			<input list="blood" type="text" name="blood" placeholder="Enter Blood Type" value="<?php echo isset($_POST['blood']) ? $blood : ''; ?>" required/>
         	<datalist id="blood">
         		<option value="A+"></option>
@@ -91,11 +91,11 @@ $msg='';
 		</div>
 		<h3>Contact Information:</h3>
 		<div>
-			<label>Email:<span>*</span></label>
+			<span>*</span><label>Email:</label>
 			<input type="text" name="email" placeholder="Enter email" value="<?php echo isset($_POST['email']) ? $email : ''; ?>" required/>
 		</div>
 		<div>
-			<label>Phone:<span>*</span></label>
+			<span>*</span><label>Phone:</label>
 			<input type="text" name="phone" placeholder="Enter Phone Number" value="<?php echo isset($_POST['phone']) ? $phone : ''; ?>" required/>
 		</div>
 		<div>
